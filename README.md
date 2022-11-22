@@ -1,3 +1,4 @@
+Important: Always run as admin!
 # Assistant
 Assistant is an IT Toolkit that contains tools an IT will need for his/her everyday life
 The program is straightforward to use
