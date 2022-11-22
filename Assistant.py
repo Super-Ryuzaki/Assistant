@@ -1,4 +1,4 @@
-﻿import sys, ctypes
+import sys, ctypes
 import platform,socket,re, uuid
 import os
 import os.path
@@ -146,7 +146,7 @@ class windows_util_window(QMainWindow):
         self.inb_rules_button = QPushButton("Set Port Rule",self)
         self.inb_rules_button.adjustSize()
         self.inb_rules_button.setStyleSheet("background-color: gray")
-        self.inb_rules_button.setToolTip("<h3><font color = 'blue'> Enable Active Directory Users and Computers on this PC </font></h3>")
+        self.inb_rules_button.setToolTip("<h3><font color = 'blue'> add a Rule for Inbound or Outbound Connection</font></h3>")
         self.inb_rules_button.move(10,105)
         self.inb_rules_button.clicked.connect(self.set_port_rule) 
 
